@@ -68,7 +68,7 @@ body {
 }
 
 .conteudo-principal-escrito-botao {
-    background-color: #00f2fe;
+    background-color: #30cfd0;
     width: 170px;
     height: 45px;
     border: none;
@@ -86,7 +86,8 @@ body {
 }
 
 .conteudo-principal-imagem {
-    /*height: ;*/
+    height: 300px;
+    margin-top: 40px;
 }
 
 .conteudo-secundario {
@@ -121,7 +122,7 @@ body {
 }
 
 .rodape-imagem {
-    /*height: ;*/
+    height: 100px;
     display: block;
     margin: 0 auto;
 }
