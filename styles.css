@@ -29,7 +29,60 @@ body {
 
 .cabecalho-menu-item {
    /* font-family: ; */
-   /* color: ; */
    /* font-weight: ; */
    /* font-size: ; */
+   /* color: ; */
 }
+
+.conteudo {
+    margin-bottom: 40px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+    
+.conteudo-principal-escrito-titulo {
+   /* font-family: ; */
+   /* font-weight: ; */
+   /* font-size: ; */
+   /* color: ; */
+}
+
+.conteudo-principal-escrito-subtitulo {
+   /* font-family: ; */
+   /* font-weight: ; */
+   /* font-size: ; */
+   /* color: ; */
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #00f2fe;
+    width: 170px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+   /* font-family: ; */
+   /* font-weight: ; */
+   /* font-size: ; */
+   /* color: ; */
+
+}
+
+.conteudo-principal-imagem {
+    /*height: ;*/
+}
+
+
+    
