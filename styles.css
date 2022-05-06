@@ -111,4 +111,14 @@ body {
    /* font-size: ; */
    /* color: ; */
 }
+
+.rodape {
+    padding: 30px;
+}
+
+.rodape-imagem {
+    height: ;
+    display: block;
+    margin: 0 auto;
+}
     
