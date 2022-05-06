@@ -7,4 +7,29 @@
 
 body {
     font-size: 100%;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.cabecalho {                                        /* Elemento pai do Navbar */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.cabecalho-imagem {
+    height: 32px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.cabecalho-menu-item {
+   /* font-family: ; */
+   /* color: ; */
+   /* font-weight: ; */
+   /* font-size: ; */
 }
