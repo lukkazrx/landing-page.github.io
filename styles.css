@@ -11,22 +11,22 @@ body {
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
       
 }
-
+                                                /* Scrollbar*/
 body::-webkit-scrollbar {
     width: 10px;              
   }
   
-  body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track {
     background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
   }
   
-  body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb {
     background-color: #30cfd0;    
     border-radius: 20px;       
     border: 3px solid #330867;  
   }
 
-.cabecalho {                                        /* Navbar */
+.header {                                        /* Navbar */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,65 +34,65 @@ body::-webkit-scrollbar {
     padding: 16px;
 }
 
-.cabecalho-imagem {
+.header-img {
     height: 32px;
 }
 
-.cabecalho-menu {
+.header-menu {
     display: flex;
     gap: 20px;
 }
 
-.cabecalho-menu-item {
+.header-menu-item {
     font-family: 'Sarala', sans-serif; 
     font-weight: 400; 
     font-size: 15px; 
     color: #FFF2E7;
 }
 
-.cabecalho-menu-item:hover {
+.header-menu-item:hover {
     color: #30cfd0;
 }
                                                     /* FIm do Navbar*/
 
-.conteudo {                                         /* Section */
+.content {                                         /* Section */
     margin-bottom: 40px;
     border-top: 0.4px solid #FFF2E7;
 }
 
-.conteudo-principal {                      
+.main-content {                      
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
 }
 
-.conteudo-principal-escrito {
+.main-content-written {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
     
-.conteudo-principal-escrito-titulo {
+.main-content-written-title {
    font-family: 'Righteous', Impact; 
     font-weight: 600;
     font-size: 35px ;
     color: #FFF2E7;
 }
 
-.conteudo-principal-escrito-subtitulo {
+.main-content-written-subtitle {
     font-family: 'Sarala', sans-serif ; 
     font-weight: 400;
     font-size: 15px;
     color: #FFF2E7;
 }
 
-.conteudo-principal-imagem {
+.main-content-img {
     height: 250px;
     margin: 40px;
 }
 
-.conteudo-secundario {
+.secondary-content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,7 +101,7 @@ body::-webkit-scrollbar {
 
 }
 
-.conteudo-secundario-titulo {
+.secondary-content-title {
     font-family: 'Righteous', Impact;
     font-weight: 600;
     font-size: 24px ; 
@@ -111,19 +111,19 @@ body::-webkit-scrollbar {
     margin-bottom: 10px;
 }
 
-.conteudo-secundario-paragrafo {
+.secondary-content-paragraph {
     font-family: 'Sarala', sans-serif ;
     font-weight: 400;
     font-size: 16px; 
     color: #FFF2E7; 
 }
                                                      /* Fim do Section*/
-.rodape {
+.footer {
     border-top: 0.4px solid #FFF2E7;
     padding: 30px;
 }
 
-.rodape-imagem {
+.footer-img {
     height: 100px;
     display: block;
     margin: 0 auto;
