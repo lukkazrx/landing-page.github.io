@@ -2,6 +2,7 @@
 
 -🔧 Essa foi a primeira LP feita por mim. <br>
 
+
 -🌑 A ilustração da Lua foi feita por mim. Utilizei o Adobe Illustrator.
 
 -📋 As Tecnologias utilizadas na própria LP estão descritas nela mesmo.
